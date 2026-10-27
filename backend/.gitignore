@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local database
+backend/transcriptions.db
+
+# Downloaded speech models
+backend/vosk-model-small-en-us-0.15/
+backend/vosk-model-small-hi-0.22/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Logs and temporary files
+*.log

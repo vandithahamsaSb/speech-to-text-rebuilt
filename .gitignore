@@ -1,0 +1,10 @@
+venv/
+**/venv/
+__pycache__/
+*.py[cod]
+.env
+**/transcriptions.db
+backend/vosk-model-small-en-us-0.15/
+backend/vosk-model-small-hi-0.22/
+frontend/node_modules/
+frontend/dist/
